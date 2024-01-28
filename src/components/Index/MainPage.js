@@ -9,7 +9,7 @@ const MainPage = () => {
     <div>
       <Container className='BodyContainer' fluid >
         <Row>
-          <Col md={{ span: 9, offset: 2 }} lg={{ span: 7, offset: 3 }} xl={{ span: 6, offset: 3 }} className='mt-5' >
+          <Col  md={{ span: 9, offset: 2 }} lg={{ span: 7, offset: 3 }} xl={{ span: 6, offset: 3 }} className='mt-5' >
             <Accordion className='Accordion' defaultActiveKey={['0']} flush >
               <Accordion.Item eventKey="0">
                 <Accordion.Header>What is Hotel Management System</Accordion.Header>
