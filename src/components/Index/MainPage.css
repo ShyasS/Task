@@ -1,0 +1,21 @@
+.BodyContainer {
+    background-image: url('../../Images/isometric-hospital-flowchart-composition-with-isolated-human-characters-doctors-nurse-images-medical-equipment-vector-illustration_1284-30649.avif');
+    height: 90vh;
+    width: 100%
+}
+
+@media screen and (min-width:320px) and (max-width:376px) {
+    .BodyContainer {
+        height: 170vh;
+    }
+
+    .Accordion {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:930px) {
+    .BodyContainer {
+        height: 120vh;
+    }
+}
